@@ -1,15 +1,15 @@
-import { wake } from 'wake_on_lan'
+import { NestFactory } from '@nestjs/core';
+import * as fs from 'node:fs';
+import { AppModule } from './app.module';
 
-const laptop = "bc:17:b8:ce:92:b7"
-const desktop = "04-92-26-4D-A1-91"
-const remoteIP = "5.48.149.204"
+async function bootstrap() {
+  const httpsOptions = {
+    key: fs.readFileSync(process.env.HTTPS_KEY_LOCATION as string),
+    cert: fs.readFileSync(process.env.HTTPS_CERT_LOCATION as string),
+  };
 
-wake(desktop, {address: remoteIP, port: 7, num_packets: 10}, (error: any) => {
-  console.log('Wakie wakie')
-  console.log(error)
-})
+  const app = await NestFactory.create(AppModule, { httpsOptions });
+  await app.listen(process.env.PORT || 3000);
+}
 
-// wake(desktop, (error: any) => {
-//  console.log('Wakie local wakie')
-//  console.log(error)
-// })
+bootstrap();

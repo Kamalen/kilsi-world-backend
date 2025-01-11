@@ -1,4 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a129e25a-57ef-475c-9ba6-fb76fe86a04d" name="Changes" comment="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)">
+      <change afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificate/localhost.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificate/localhost.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/alexa.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http-client.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/login.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/profile.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/start-pc.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quick-test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/configuration.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/hardware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/users/users.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/users/users.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/users/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/models/alexa-payload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/models/alexa-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/models/alexa-session.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Private Environment File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/http/login.http" environment="dev" />
+    <file url="file://$PROJECT_DIR$/http/profile.http" environment="dev" />
+    <file url="file://$PROJECT_DIR$/http/start-pc.http" environment="dev" />
+    <file url="file://$PROJECT_DIR$/http/alexa.http" environment="prod" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2rU0Dhr5yVqkh6NDIeOU5Kknln9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.alexa | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.login | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.profile | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.scratch | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.start-pc | #1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/Projets/KilsiWorld/KilsiWorldBackend/http&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.quick.executor&quot;: &quot;Run&quot;,
+    &quot;npm.release.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start:debug.executor&quot;: &quot;Debug&quot;,
+    &quot;npm.start:prod.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;Z:\\Projets\\KilsiWorld\\KilsiWorldBackend\\node_modules\\prettier&quot;,
+    &quot;rest.client.default.execution.environment&quot;: &quot;prod&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;Z:\\Projets\\KilsiWorld\\KilsiWorldBackend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTTP Request&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\Projets\KilsiWorld\KilsiWorldBackend\http" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\Projets\KilsiWorld\KilsiWorldBackend\src" />
+      <recent name="Z:\Projets\KilsiWorld\KilsiWorldBackend\http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.release">
+    <configuration name="alexa | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/alexa.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="quick" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="quick" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="release" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="release" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:debug" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:debug" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.quick" />
+        <item itemvalue="HTTP Request.alexa | #1" />
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a129e25a-57ef-475c-9ba6-fb76fe86a04d" name="Changes" comment="" />
+      <created>1736598228975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736598228975</updated>
+      <workItem from="1736598230125" duration="8335000" />
+      <workItem from="1736606795546" duration="2308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/jsonwebtoken/sign.js</url>
+          <line>110</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="js.build_tools.npm">
+        <watch expression=" configService.get('JWT_SECRET')" />
+      </configuration>
+    </watches-manager>
+  </component>
 </project>
