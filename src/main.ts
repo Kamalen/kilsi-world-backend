@@ -1,6 +1,8 @@
 import { wake } from 'wake_on_lan'
 
 
+const desktop = "04-92-26-4D-A1-91"
+
 wake("bc:17:b8:ce:92:b7", {address: '192.168.1.64', port: 7, num_packets: 10}, (error: any) => {
   console.log('Wakie wakie')
   console.log(error)
