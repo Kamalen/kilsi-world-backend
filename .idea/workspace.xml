@@ -5,53 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a129e25a-57ef-475c-9ba6-fb76fe86a04d" name="Changes" comment="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)">
-      <change afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificate/localhost.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificate/localhost.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/alexa.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/login.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/profile.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/start-pc.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quick-test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/configuration.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/hardware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/alexa/alexa.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/hardware/hardware.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/users/users.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/users/users.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/users/users.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/alexa-payload.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/alexa-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/alexa-session.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/hardware/hardware.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/hardware/hardware.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +54,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/Projets/KilsiWorld/KilsiWorldBackend/http&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/Projets/KilsiWorld/KilsiWorldFront&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -211,16 +166,32 @@
       <option name="presentableId" value="Default" />
       <updated>1736598228975</updated>
       <workItem from="1736598230125" duration="8335000" />
-      <workItem from="1736606795546" duration="2308000" />
+      <workItem from="1736606795546" duration="2376000" />
+      <workItem from="1736609896933" duration="774000" />
+      <workItem from="1736610696076" duration="1398000" />
+      <workItem from="1736612966098" duration="317000" />
     </task>
+    <task id="LOCAL-00001" summary="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)">
+      <option name="closed" value="true" />
+      <created>1736609187468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736609187468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)" />
     <option name="LAST_COMMIT_MESSAGE" value="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

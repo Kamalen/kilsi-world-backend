@@ -1,15 +1,18 @@
-import { Controller, Get, HttpCode, Param, UseGuards } from '@nestjs/common';
+import { Controller, Get, HttpCode, Param } from '@nestjs/common';
 import { HardwareService } from './hardware.service';
-import { AuthGuard } from '../auth/auth.guard';
-import { HardwareId } from '../../data/hardware';
+import { HARDWARE, HardwareId } from '../../data/hardware';
 
 @Controller('hardware')
 export class HardwareController {
   constructor(private readonly hardwareService: HardwareService) {}
 
-  @UseGuards(AuthGuard)
+  @Get()
+  get() {
+    return HARDWARE;
+  }
+
   @Get('wake/:id')
-  @HttpCode(201)
+  @HttpCode(200)
   wakeUp(@Param('id') id: HardwareId) {
     return this.hardwareService.wakeUp(id);
   }
