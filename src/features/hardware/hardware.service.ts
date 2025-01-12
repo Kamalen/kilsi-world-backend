@@ -13,14 +13,23 @@ export class HardwareService {
     const hardware = HARDWARE.find((hardware) => hardware.id === id);
     return new Observable((subscriber) => {
       if (hardware) {
-        wake(hardware.macAddress, { address: hardware.ipAddress, port: 7, num_packets: 10 }, (error: any) => {
-          if (error) {
-            subscriber.error(error);
-          } else {
-            subscriber.next(true);
-          }
-          subscriber.complete();
-        });
+        wake(
+          hardware.macAddress,
+          {
+            address: hardware.ipAddress,
+            port: 7,
+            num_packets: 20,
+            interval: 200,
+          },
+          (error: any) => {
+            if (error) {
+              subscriber.error(error);
+            } else {
+              subscriber.next(true);
+            }
+            subscriber.complete();
+          },
+        );
       } else {
         subscriber.error({ message: 'Hardware not found' });
         subscriber.complete();

@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a129e25a-57ef-475c-9ba6-fb76fe86a04d" name="Changes" comment="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)">
+    <list default="true" id="a129e25a-57ef-475c-9ba6-fb76fe86a04d" name="Changes" comment="Big stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/hardware/hardware.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/hardware/hardware.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick-test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quick-test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/configuration.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hardware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hardware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/hardware/hardware.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/hardware/hardware.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,41 +48,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.alexa | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.login | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.profile | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.scratch | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.start-pc | #1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/Projets/KilsiWorld/KilsiWorldFront&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
-    &quot;npm.quick.executor&quot;: &quot;Run&quot;,
-    &quot;npm.release.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start:debug.executor&quot;: &quot;Debug&quot;,
-    &quot;npm.start:prod.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;Z:\\Projets\\KilsiWorld\\KilsiWorldBackend\\node_modules\\prettier&quot;,
-    &quot;rest.client.default.execution.environment&quot;: &quot;prod&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;Z:\\Projets\\KilsiWorld\\KilsiWorldBackend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.alexa | #1.executor": "Run",
+    "HTTP Request.login | #1.executor": "Run",
+    "HTTP Request.profile | #1.executor": "Run",
+    "HTTP Request.scratch | #1.executor": "Run",
+    "HTTP Request.start-pc | #1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "Z:/Projets/KilsiWorld/KilsiWorldBackend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.deploy.executor": "Run",
+    "npm.quick.executor": "Debug",
+    "npm.release.executor": "Run",
+    "npm.start:debug.executor": "Run",
+    "npm.start:prod.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "Z:\\Projets\\KilsiWorld\\KilsiWorldBackend\\node_modules\\prettier",
+    "rest.client.default.execution.environment": "prod",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "Z:\\Projets\\KilsiWorld\\KilsiWorldBackend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;HTTP Request&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTTP Request"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\Projets\KilsiWorld\KilsiWorldBackend\http" />
@@ -143,9 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.quick" />
         <item itemvalue="HTTP Request.alexa | #1" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -169,7 +174,8 @@
       <workItem from="1736606795546" duration="2376000" />
       <workItem from="1736609896933" duration="774000" />
       <workItem from="1736610696076" duration="1398000" />
-      <workItem from="1736612966098" duration="317000" />
+      <workItem from="1736612966098" duration="447000" />
+      <workItem from="1736680214310" duration="8309000" />
     </task>
     <task id="LOCAL-00001" summary="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)">
       <option name="closed" value="true" />
@@ -179,17 +185,37 @@
       <option name="project" value="LOCAL" />
       <updated>1736609187468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Big stuff">
+      <option name="closed" value="true" />
+      <created>1736613414610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736613414610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plein de trucs (Alexa, démarrage de PC, build system custom, etc...)" />
+    <MESSAGE value="Big stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big stuff" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -206,6 +232,7 @@
     <watches-manager>
       <configuration name="js.build_tools.npm">
         <watch expression=" configService.get('JWT_SECRET')" />
+        <watch expression="hardware" />
       </configuration>
     </watches-manager>
   </component>
